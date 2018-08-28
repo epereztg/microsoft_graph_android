@@ -22,10 +22,10 @@ import com.microsoft.identity.client.*;
 public class MainActivity extends AppCompatActivity {
 
     /* Azure AD v2 Configs */
-    final static String CLIENT_ID = "074d69f8-eed5-46ed-b577-13a834d0a716";
-    final static String SCOPES [] = {"https://graph.microsoft.com/User.Read"};
+    final static String CLIENT_ID = "81b4ff0f-c00c-4515-9f1e-31b5e3d7533a";
+    final static String SCOPES [] = {"https://graph.microsoft.com/Calendars.Read"};
     final static String MSGRAPH_URL = "https://graph.microsoft.com/v1.0/me";
-    final static String MSGRAPH_CAL_URL = "https://graph.microsoft.com/v1.0/me/events";
+    final static String MSGRAPH_CAL_URL = "https://graph.microsoft.com/v1.0/me/calendars";
 
     /* UI & Debugging Variables */
     private static final String TAG = MainActivity.class.getSimpleName();
